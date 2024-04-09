@@ -1,1 +1,61 @@
 /* Add screen styles below */
+nav {
+    display: flex;
+    align-items: center;
+}
+.nav-items {
+    white-space: nowrap;
+}
+
+.nav-items a {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header a,
+.header h6 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+}
+
+.subheader a,
+.subheader h6 {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.subheader h6 {
+    margin-left: 25px;
+}
+
+.content h5,
+.content img,
+.content .header {
+    display: inline;
+    margin-right: 5px;
+}
+
+h5 {
+    margin: 0;
+    width: 20px;
+    text-align: right;
+}
+
+h6 {
+    margin: 0;
+}
