@@ -1,7 +1,21 @@
 /* Add screen styles below */
+:root {
+    --main-bg-color: #E9E9E9;
+    --primary-text-color: #000000;
+    --secondary-text-color: #828282;
+    --font-family: Verdana, Geneva, sans-serif;
+    --nav-background-color: #FF6600;
+    --main-background-color: #F6F6EF;
+}
+
+.body {
+    font-family: var(--font-family);
+}
+
 nav {
     display: flex;
     align-items: center;
+    background-color: #FF6600;
 }
 .nav-items {
     white-space: nowrap;
@@ -10,6 +24,22 @@ nav {
 .nav-items a {
     display: inline-block;
     padding: 0 5px;
+}
+
+.title {
+    font-size: 13.33px;
+    font-weight: 800;
+}
+
+a {
+    color: var(--primary-text-color);
+    font-size: 13.33px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.login {
+    margin-left: auto;
 }
 
 .content {
