@@ -12,10 +12,15 @@
     font-family: var(--font-family);
 }
 
+section {
+    background-color: var(--main-background-color);
+}
+
 nav {
     display: flex;
     align-items: center;
     background-color: #FF6600;
+    padding: 2px;
 }
 .nav-items {
     color: var(--primary-text-color);
@@ -50,6 +55,7 @@ nav {
     font-size: 13.33px;
     font-weight: 400;
     text-decoration: none;
+    padding-right: 5px;
 }
 
 .content {
@@ -95,12 +101,15 @@ nav {
     font-size: 9.33px;
     font-weight: 600;
     display: inline-block;
-    margin-right: 5px;
     text-decoration: none;
 }
 
+.subheader a {
+    margin: 0 4px;
+}
+
 .subheader h6 {
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 .content h5,
@@ -118,4 +127,8 @@ h5 {
 
 h6 {
     margin: 0;
+}
+
+.author a {
+    margin: 0 0 0 3px;
 }
